@@ -26,7 +26,7 @@ we solve and web site run successful.
 
 2024-06-16
 1645 UTC
-We also add such data like: 
+We also add such datas like: 
 Material
 type
 length 
