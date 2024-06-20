@@ -2,7 +2,62 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <img src="~/img/images.png" alt="Welcome Image" class="welcome-image" />
+    </div>
+    <script>
+                /* wwwroot/css/styles.css */
+        body {
+            font - family: Arial, sans - serif;
+            background - color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .text - center {
+            text - align: center;
+            margin - top: 50px;
+            padding: 20px;
+        }
+
+        .display - 4 {
+            font - size: 2.5rem;
+            margin - bottom: 20px;
+        }
+
+        p {
+            font - size: 1.2rem;
+            margin - bottom: 30px;
+        }
+
+        .welcome - image {
+            max - width:  100%;
+            height: auto;
+            margin - top: 20px;
+            border: 5px solid #343a40;
+            border - radius: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text - decoration: none;
+        }
+
+        a:hover {
+            text - decoration: underline;
+        }
+
+    </script>
+</body>
+</html>
