@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace Deeor.Models
 {
@@ -30,7 +31,8 @@ namespace Deeor.Models
                         Color = "Yellow",
                         ClassType = "Lobster",
                         Price = 250.99m,
-                        Brand = "LuxuryBrand"
+                        Brand = "LuxuryBrand",
+                        ImageUrl = "https://ca.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3f3e1c6f/productimages/singlepackshot/562731C00_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5"
                     },
                     new Bracelette
                     {
